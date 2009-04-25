@@ -1,0 +1,14 @@
+itermProj Opener
+version 0.1
+written by Jared Grippe
+
+.itermPorj files are just yaml files that look like this
+
+  --- 
+  - :session: Default
+    :name: Logs
+    :cmd: cd ~/my_rails_app && tail -n 0 -f log/*.log
+  - :session: Default
+    :name: Console
+    :cmd: cd ~/my_rails_app && ./script/console
+

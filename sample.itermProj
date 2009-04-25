@@ -1,0 +1,13 @@
+--- 
+- :session: Default
+  :name: Logs
+  :cmd: cd ~/Work/rupture.com && tail -n 0 -f log/*.log
+- :session: Default
+  :name: Auto Spec
+  :cmd: cd ~/Work/rupture.com && ./script/autospec
+- :session: Default
+  :name: Console
+  :cmd: cd ~/Work/rupture.com && ./script/console
+- :session: Default
+  :name: Rupture.com
+  :cmd: cd ~/Work/rupture.com
