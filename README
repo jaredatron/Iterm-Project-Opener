@@ -2,6 +2,9 @@ itermProj Opener
 version 0.1
 written by Jared Grippe
 
+The iterm project opener is just a simple apple script that app that can be setup as
+the default app for .itermProj files. 
+
 .itermPorj files are just yaml files that look like this
 
   --- 
@@ -12,3 +15,16 @@ written by Jared Grippe
     :name: Console
     :cmd: cd ~/my_rails_app && ./script/console
 
+these yaml files are then passed onto a ruby scrip that tell iterm to open x tabs in
+the above configurations.
+
+
+INSTALL
+
+git clone git://github.com/deadlyicon/Iterm-Project-Opener.git
+mv Iterm-Project-Opener/ItermProjectOpener.app /Applications/
+open Iterm-Project-Opener
+# get info on sample.itermProj
+# set Open With to ItermProjectOpener.app
+# hit Change All
+# sample.itermProj
