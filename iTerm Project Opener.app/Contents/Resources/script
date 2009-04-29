@@ -4,6 +4,8 @@ require 'appscript'
 require 'yaml' 
 include Appscript
 
+APP_PATH = ARGV.shift
+
 exit unless !ARGV.first.nil? and File.exists?(ARGV.first) 
 
 ITERM = app("iTerm")

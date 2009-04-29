@@ -1,0 +1,4 @@
+CFBundleName = "iTerm Project Opener";
+CFBundleShortVersionString = "1.0";
+CFBundleGetInfoString = "iTerm Project Opener version 1.0 Copyright 2009 Jared Grippe";
+NSHumanReadableCopyright = "Copyright 2009 Jared Grippe.";
