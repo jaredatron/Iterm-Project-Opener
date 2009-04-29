@@ -1,7 +1,7 @@
 h1. iTerm Project Opener
 
 version 0.1
-written by Jared Grippe jared@deadlyicon.com@
+written by "Jared Grippe":mailto:jared@deadlyicon.com
 
 The iterm project opener is just a simple ruby script that stores tab configurations for iTerm
 
@@ -22,9 +22,8 @@ h2. Install
 * Have rubygems >=1.3.2
 * Install rb-appscript
 ** sudo gem install rb-appscript -v '>=0.5.1'
-* Download Iterm-Project-Opener
-** http://github.com/deadlyicon/Iterm-Project-Opener/zipball/master
-* copy iTerm Project Opener.app to /Applications/
-* copy sample.itermproj to you_project_name.itermproj
+* "Download Iterm-Project-Opener":http://github.com/deadlyicon/Iterm-Project-Opener/zipball/master
+* copy 'iTerm Project Opener.app' to /Applications/
+* copy sample.itermproj to your_project_name.itermproj
 * edit it
 * double click it
