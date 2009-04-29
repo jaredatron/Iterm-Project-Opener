@@ -37,8 +37,6 @@
 	<dict>
 		<key>APP_BUNDLER</key>
 		<string>Platypus-4.0</string>
-		<key>PATH</key>
-		<string>/Applications/java/ec2-api-tools-1.3-34128/bin:/Users/jaredgrippe/.gem/ruby/1.8/bin:/Users/jaredgrippe/Library/Scripts:/usr/local/bin/:/usr/sbin/:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/mysql/bin</string>
 	</dict>
 	<key>LSHasLocalizedDisplayName</key>
 	<false/>
