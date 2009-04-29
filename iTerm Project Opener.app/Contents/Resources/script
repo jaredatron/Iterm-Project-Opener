@@ -6,8 +6,6 @@ include Appscript
 
 APP_PATH = ARGV.shift
 
-# exit unless !ARGV.first.nil? and File.exists?(ARGV.first) 
-
 ITERM = app("iTerm")
 ITERM.activate
 TERMS = ITERM.count(:each => :terminal)
